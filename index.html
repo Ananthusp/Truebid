@@ -600,7 +600,7 @@ kbd{font-family:var(--body);font-size:11px;padding:2px 7px;background:var(--surf
   <div class="nav-right">
     <div class="pilot-tag">Pilot</div>
     <div class="user-chip" id="userChip" hidden>
-      <span id="userName">Ananthu R</span>
+      <span id="userName">Ananthu S</span>
       <div class="avatar" id="userAvatar">AR</div>
     </div>
   </div>
@@ -1523,7 +1523,7 @@ function setRole(r){
   document.getElementById('tab-seller').classList.toggle('active',r==='seller');
   const chip=document.getElementById('userChip');
   chip.removeAttribute('hidden');
-  document.getElementById('userName').textContent=r==='buyer'?'Ananthu R':'Jane Supplier';
+  document.getElementById('userName').textContent=r==='buyer'?'Ananthu S':'Jane Supplier';
   document.getElementById('userAvatar').textContent=r==='buyer'?'AR':'JS';
   document.getElementById('userAvatar').style.background=r==='buyer'?'var(--brand)':'var(--gold)';
 }
